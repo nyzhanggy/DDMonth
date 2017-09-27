@@ -1,10 +1,6 @@
 //
 //  AppDelegate.swift
-//  DDMonth
-//
-//  Created by 张桂杨 on 2017/9/27.
-//  Copyright © 2017年 DD. All rights reserved.
-//
+
 
 import UIKit
 

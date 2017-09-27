@@ -12,6 +12,9 @@
 		15521ACF1F7B9502001671F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15521ACD1F7B9502001671F0 /* Main.storyboard */; };
 		15521AD11F7B9502001671F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15521AD01F7B9502001671F0 /* Assets.xcassets */; };
 		15521AD41F7B9502001671F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15521AD21F7B9502001671F0 /* LaunchScreen.storyboard */; };
+		15521ADD1F7B9525001671F0 /* DDMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15521ADB1F7B9524001671F0 /* DDMonthView.swift */; };
+		15521ADE1F7B9525001671F0 /* DDInfiniteScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15521ADC1F7B9525001671F0 /* DDInfiniteScrollView.swift */; };
+		15521AE01F7B9535001671F0 /* DDDateCal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15521ADF1F7B9534001671F0 /* DDDateCal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		15521AD01F7B9502001671F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15521AD31F7B9502001671F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15521AD51F7B9502001671F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15521ADB1F7B9524001671F0 /* DDMonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDMonthView.swift; sourceTree = "<group>"; };
+		15521ADC1F7B9525001671F0 /* DDInfiniteScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDInfiniteScrollView.swift; sourceTree = "<group>"; };
+		15521ADF1F7B9534001671F0 /* DDDateCal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDDateCal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				15521AC91F7B9502001671F0 /* AppDelegate.swift */,
 				15521ACB1F7B9502001671F0 /* ViewController.swift */,
+				15521ADF1F7B9534001671F0 /* DDDateCal.swift */,
+				15521ADC1F7B9525001671F0 /* DDInfiniteScrollView.swift */,
+				15521ADB1F7B9524001671F0 /* DDMonthView.swift */,
 				15521ACD1F7B9502001671F0 /* Main.storyboard */,
 				15521AD01F7B9502001671F0 /* Assets.xcassets */,
 				15521AD21F7B9502001671F0 /* LaunchScreen.storyboard */,
@@ -96,7 +105,7 @@
 				TargetAttributes = {
 					15521AC51F7B9502001671F0 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -136,6 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15521AE01F7B9535001671F0 /* DDDateCal.swift in Sources */,
+				15521ADD1F7B9525001671F0 /* DDMonthView.swift in Sources */,
+				15521ADE1F7B9525001671F0 /* DDInfiniteScrollView.swift in Sources */,
 				15521ACC1F7B9502001671F0 /* ViewController.swift in Sources */,
 				15521ACA1F7B9502001671F0 /* AppDelegate.swift in Sources */,
 			);
@@ -274,11 +286,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DDMonth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DD.DDMonth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,11 +302,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DDMonth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DD.DDMonth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
